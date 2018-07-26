@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Travis/x/Data Structures/myQueue/main.cpp
+iostream
+-
+myqueue.h
+/Users/Travis/x/Data Structures/myQueue/myqueue.h
+
+/Users/Travis/x/Data Structures/myQueue/myqueue.h
+cstdlib
+-
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Travis/x/CS08/heapSort/heapSort.h
+iostream
+-
+fstream
+-
+cstdlib
+-
+memory.h
+-
+vector
+-
+
+/Users/Travis/x/CS08/heapSort/main.cpp
+iostream
+-
+heapSort.h
+/Users/Travis/x/CS08/heapSort/heapSort.h
+ctime
+-
+cstdlib
+-
+iomanip
+-
+string
+-
+

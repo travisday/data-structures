@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Travis/x/Data Structures/map/main.cpp
+iostream
+-
+mymap.h
+/Users/Travis/x/Data Structures/map/mymap.h
+
+/Users/Travis/x/Data Structures/map/mymap.h
+iomanip
+-
+iostream
+-
+fstream
+-
+
